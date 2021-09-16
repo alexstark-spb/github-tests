@@ -9,13 +9,12 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 
-public class FindSampleCode {
+public class FindSampleCodeTest {
 
 
     @BeforeAll
     static void beforeAll() {
         Configuration.startMaximized = true;
-
     }
 
     @Test

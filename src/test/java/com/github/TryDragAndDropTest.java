@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class TryDragAndDrop {
+public class TryDragAndDropTest {
 
     @BeforeAll
     static void beforeAll() {
@@ -21,5 +21,4 @@ public class TryDragAndDrop {
         $("#column-b").shouldHave(Condition.text("A"));
 
     }
-
 }
